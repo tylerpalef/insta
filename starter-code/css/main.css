@@ -1,0 +1,71 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0, auto;
+}
+
+.colorintheback{
+  height: 200px;
+  width: 100%;
+  background-color: #1c5380;
+  position: relative;
+  z-index:10;
+}
+
+.container{
+  margin: 90px auto 0;
+  position: relative;
+  bottom: 150px;
+  width: 50%;
+  padding: 1px;
+  z-index: 20;
+}
+
+span {
+  font-weight: bold;
+}
+
+.logo{
+  background-color: #1c5380;
+}
+
+.left {
+  display: inline-block;
+  width: 49%;
+}
+
+.right {
+  display: inline-block;
+  width: 49%;
+  bottom: 45px;
+  position:relative;
+}
+
+h2 {
+  color:#06365f;
+}
+
+p {
+  background-color:white;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: darkgrey;
+  font-weight: bold;
+  font-color: #06365f;
+}
+
+a {
+  text-decoration: none;
+    margin: 0 0 20px;
+}
